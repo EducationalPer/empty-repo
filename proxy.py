@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 import re
 
-TELEGRAM_BOT_TOKEN = '8194361332:AAGSx19GHlgf2gb4NExnEf0LrcRIa7k_Jvc'
+TELEGRAM_BOT_TOKEN = ''
 ADMIN_USER_ID = 6150862515
 USERS_FILE = 'users.txt'
 attack_in_progress = False
@@ -116,7 +116,7 @@ async def attack(update: Update, context: CallbackContext):
         f"*⭐ 𝗧𝗮𝗿𝗴𝗲𝘁 » {ip}*\n"
         f"*⭐ 𝗣𝗼𝗿𝘁 » {port}*\n"
         f"*⭐ 𝗧𝗶𝗺𝗲 » {time} seconds*\n"
-        f"*🔥 𝗢𝘄𝗻𝗲𝗿 @RAJOWNER90*\n"        
+        f"*🔥 𝗢𝘄𝗻𝗲𝗿 @😆*\n"        
         f"*🔥 SERVER BGMI*"           
     ), parse_mode='Markdown')
 
